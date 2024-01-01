@@ -1,4 +1,7 @@
+print("-----------------------------")
 #Toán tử
+print("Toán tử")
+print("-----------------------------")
 #Toán tử gán
 print("Toán tử gán!")
 a = 1000
@@ -88,5 +91,29 @@ so sánh 2 giá trị
 | Toán tử  |     Ý nghĩa                            | 
 |   is     | Trả về True nếu 2 đối tượng giống nhau |
 |   is not | Trả về True nếu 2 đối tượng khác nhau  |
-
 """
+a = [1,2,3]
+b = [1,2,3]
+print("a =",a)
+print("b =",b)
+print("Toán tử nhận dạng is ")
+print("a is b ->", a is b)
+print("Toán tử nhận dạng is not ")
+print("a is not b ->", a is not b)
+print("-----------------------------")
+print("Toán tử thành viên!")
+#Toán tử thành viên
+"""
+Toán tử thành viên được dùng để kiểm tra
+sự tồn tại của 1 đối tượng trong list, xâu, tuple...
+| Toán tử |    Ý nghĩa                | Ví dụ             | Kết quả  |
+|   in    | Trả về True nếu đối tượng | 'a' in 'abcd'     |   True   |
+|         |    kiểm tra tồn tại       |                   |          |
+| not in  | Trả về True nếu đối tượng | 'a' in not 'Duy'  |   True   |
+|         |    kiểm tra không tồn tại |                   |          |
+"""
+s = 'Nguyễn Khánh Duy lớp 64ANM2 2251272688'
+print("s =",s)
+print("'a' in s ->", 'a' in s)
+print("'a' not in s ->", 'a' not in s)
+print("-----------------------------")
