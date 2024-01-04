@@ -65,3 +65,57 @@ print("\telif condition:")
 print("\t\t#codeN")
 print("\telse condition:")
 print("\t\t#codeElse")
+print("------------------------------------------------------")
+#Shorthand if và toán tử 3 ngôi
+print("Shorthand if và toán tử 3 ngôi")
+print("---------------------------")
+#Shorthand if:
+#Bạn có thể sử dụng câu lệnh if trên 1 dòng
+"""
+Nếu trong if có nhiều câu lệnh, bạn có thể
+đặt dấu chám phẩy giữa các câu lệnh
+"""
+print("Shorthand if:")
+print("Bạn có thể sử dụng câu lệnh if trên 1 dòng")
+a,b = 100,200
+if a<b: print(a,"less than",b); print("abc")
+print("a,b = 100,200")
+print("if a<b: print(a,less than,b);print(abc)")
+if a<b: print("=>",a,"less than",b,"\n=> abc")
+
+print("---------------------------")
+
+#Toán tử 3 ngôi
+print("Toán tử 3 ngôi")
+"""
+Cú pháp
+    variable = statement if condition else statement
+                    ||                          ||
+                 True branch                False branch
+"""
+print("Cú pháp")
+print("\tvariable = statement if condition else statement")
+print("\t\t\t||\t\t\t||")
+print("\t\t   True branch\t\t   False branch")
+a,b  = 100,200
+res = "Duy" if a < b else "python"
+print("a,b  = 100,200")
+print("res = Duy if a < b else python")
+print("print(res)")
+print("=>",res)
+print("---------------------------")
+#if lồng nhau
+print("if lồng nhau")
+"""
+Khi điều kiện trong if quá phức tạp, bạn có thể sử dụng
+if lồng nhau (nested if) để kiểm tra từng điều kiện một.
+"""
+"""
+Cú pháp:
+    if condition1:#code
+        if condition2:#code
+            ...
+    else #code        
+"""
+
+
